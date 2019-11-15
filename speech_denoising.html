@@ -2,440 +2,510 @@
 <html>
 
 <head>
-<meta charset="UTF-8"/>
-<title>Deep Audio Priors Emerge from Harmonic Convolutional Networks</title>
+	<meta charset="UTF-8" />
+	<title>Deep Audio Priors Emerge from Harmonic Convolutional Networks</title>
 </head>
 
-<body><h2>Deep Audio Priors Emerge from Harmonic Convolutional Networks</h2>
-<b><i>Please use Safari or Chrome to play the files.</i></b>
-<br><br>
+<body>
+	<h2>Deep Audio Priors Emerge from Harmonic Convolutional Networks</h2>
+	<b><i>Please use Safari or Chrome to play the files.</i></b>
+	<br><br>
 
-<b>=&gt; Select task</b>:<br /></p>
-<center>
-	<table cellspacing="30"><tbody><tr> 
+	<b>=&gt; Select task</b>:<br /></p>
+	<center>
+		<table cellspacing="30">
+			<tbody>
+				<tr>
 
-		<td align="center"><a href="./index.html">Fitting Example 1-5</a></td>
-		<td align="center"><b>Audio Restoration</b></td>
-		<td align="center"><a href="./audio_restoration_quantization.html">Audio Restoration From Quantization</a></td>
-		<td align="center"><a href="./sound_separation.html">Sound Separation</a></td>
-		</tr>
-		</tbody>
+					<td align="center"><a href="./index.html">Fitting Example 1-5</a></td>
+					<td align="center"><b>Audio Restoration</b></td>
+					<td align="center"><a href="./audio_restoration_quantization.html">Audio Restoration From
+							Quantization</a></td>
+					<td align="center"><a href="./sound_separation.html">Sound Separation</a></td>
+				</tr>
+			</tbody>
 		</table>
 
-	<table cellspacing="30"><tbody><tr> 
+		<table cellspacing="30">
+			<tbody>
+				<tr>
 
-		<td align="center"><b>Speech Denoising</a></td>
-		<td align="center"><a href="music_denoising.html">Music Denoising</a></td>
-		</tr>
-		</tbody>
+					<td align="center"><b>Speech Denoising</a></td>
+					<td align="center"><a href="music_denoising.html">Music Denoising</a></td>
+				</tr>
+			</tbody>
 		</table>
 		<div>
-				<table border="1" class="inlineTable">
-						<col width="130">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">
-						<col width="110">                
-						<tr>
-						<tr>
-								<th>Index</th>
-								<th>Noisy</th>
-								<th>Clean</th>
-								<th>Our approach</th>
-								<th>Wiener</th>               
-								<th>Wavelet</th>
-								<th>DFL</th>
-								<th>DNP+lsa</th>
-								<th>DNP+wiener</th>
-								<th>WaveUet</th>
-								<th>Regular</th>                        
-								<th>Dilated</th>                        
-						</tr>
-						<tr>
-								<th> 1 </th>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Noisy.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-		
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Clean.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Ours.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Wavelet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/DFL.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-		
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/DNP_lsa.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/DNP_wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/WaveUnet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Regular.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/0/Dilated.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-						<tr>
-								<th> 2 </th>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Noisy.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+			<table border="1" class="inlineTable">
+				<col width="130">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<col width="110">
+				<tr>
+				<tr>
+					<th>Index</th>
+					<th>Noisy</th>
+					<th>Clean</th>
+					<th>Our approach</th>
+					<th>Wiener</th>
+					<th>Wavelet</th>
+					<th>DFL</th>
+					<th>DNP+lsa</th>
+					<th>DNP+wiener</th>
+					<th>WaveUet</th>
+					<th>Regular</th>
+					<th>Dilated</th>
+					<th>Our approach(shallower)</th>
+					<th>Our approach(deeper)</th>
+				</tr>
+				<tr>
+					<th> 1 </th>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Noisy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Clean.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Ours.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Wavelet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/DFL.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Clean.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Ours.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Wavelet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/DFL.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/DNP_lsa.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/DNP_wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/WaveUnet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Regular.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/1/Dilated.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-						</tr>
-						<tr>
-								<th> 3 </th>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Noisy.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/DNP_lsa.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/DNP_wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/WaveUnet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Regular.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Dilated.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Ours_shallow.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/0/Ours_deep.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				<tr>
+					<th> 2 </th>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Noisy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Clean.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Ours.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Wavelet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/DFL.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Clean.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Ours.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Wavelet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/DFL.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/DNP_lsa.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/DNP_wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/WaveUnet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Regular.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/2/Dilated.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-						</tr>
-		
-		
-						<tr>
-								<th> 4 </th>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Noisy.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/DNP_lsa.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/DNP_wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/WaveUnet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Regular.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Dilated.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Ours_shallow.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/1/Ours_deep.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				</tr>
+				<tr>
+					<th> 3 </th>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Noisy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Clean.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Ours.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Wavelet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/DFL.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Clean.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Ours.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Wavelet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/DFL.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/DNP_lsa.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/DNP_wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/WaveUnet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Regular.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/3/Dilated.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-						</tr>
-		
-		
-						<tr>
-								<th> 5 </th>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Noisy.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/DNP_lsa.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/DNP_wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/WaveUnet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Regular.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Dilated.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Ours_shallow.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/2/Ours_deep.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				</tr>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Clean.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Ours.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Wavelet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/DFL.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
 
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/DNP_lsa.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/DNP_wiener.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/WaveUnet.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Regular.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-								<td>
-										<audio controls style="width: 150px;">
-												<source src="wav_files/speech_denoising/4/Dilated.wav" type="audio/wav">
-												Your browser does not support the audio element.
-										</audio>
-								</td>
-						</tr>
-				</table>
+				<tr>
+					<th> 4 </th>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Noisy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Clean.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Ours.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Wavelet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/DFL.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/DNP_lsa.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/DNP_wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/WaveUnet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Regular.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Dilated.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Ours_shallow.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/3/Ours_deep.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				</tr>
+
+
+				<tr>
+					<th> 5 </th>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Noisy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Clean.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Ours.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Wavelet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/DFL.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/DNP_lsa.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/DNP_wiener.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/WaveUnet.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Regular.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Dilated.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Ours_shallow.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+					<td>
+						<audio controls style="width: 150px;">
+							<source src="wav_files/speech_denoising/4/Ours_deep.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</td>
+				</tr>
+			</table>
 		</div>
-</center>
+	</center>
 
-<p><br /></p>
+	<p><br /></p>
 
-<b>Data source:</b> Test dataset from <a href="https://keithito.com/LJ-Speech-Dataset/"> LJspeech </a> and <a href="https://github.com/roudimit/MUSIC_dataset"> MUSIC </a>.<br>
+	<b>Data source:</b> Test dataset from <a href="https://keithito.com/LJ-Speech-Dataset/"> LJspeech </a> and <a
+		href="https://github.com/roudimit/MUSIC_dataset"> MUSIC </a>.<br>
 </body>
 
 </div>
 <hr>
-	<div class="row">
-		<div class="col-xs-12">
-			<footer>
-				<p></p>
-			</footer>
-		</div>
+<div class="row">
+	<div class="col-xs-12">
+		<footer>
+			<p></p>
+		</footer>
 	</div>
 </div>
 </div>
 </div>
+</div>
 </body>
-</html>  
+
+</html>
